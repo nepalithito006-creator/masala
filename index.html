@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masala House | Fresh Ground Spices &amp; Masala</title>
+<meta name="description" content="Fresh ground spices and masala blends for everyday cooking. Order easily on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="spice-fx" aria-hidden="true"></canvas>
+<header>
+  <nav class="nav">
+    <a href="#top" class="brand">Masala <span>House</span></a>
+    <button class="menu" id="menu" aria-label="Menu">☰</button>
+    <ul id="links">
+      <li><a href="#products">Products</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#order">Order</a></li>
+      <li><a href="#order" class="cta">Order on WhatsApp</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <span class="kicker">Fresh ground · Small batch</span>
+      <h1>Real spices.<br><em>Real flavour.</em></h1>
+      <p>Everyday masala and whole spices for kitchens that care about taste. Pick your spices, message us, and we deliver.</p>
+      <div class="actions">
+        <a href="#products" class="btn primary">Shop Spices</a>
+        <a href="#order" class="btn ghost">How to Order</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="bowl b1"></div><div class="bowl b2"></div><div class="bowl b3"></div><div class="bowl b4"></div>
+    </div>
+  </section>
+
+  <section id="products" class="section">
+    <h2>Our Spices</h2>
+    <p class="sub">Tap any spice to order it on WhatsApp.</p>
+    <div class="grid">
+      <article class="card reveal" style="--c:#e8a317"><div class="dot"></div><h3>Turmeric</h3><p>Haldi. Golden, earthy, and essential to daily cooking.</p><a class="order" data-p="Turmeric (Haldi)">Order →</a></article>
+      <article class="card reveal" style="--c:#b3261e"><div class="dot"></div><h3>Red Chili</h3><p>Khursani. Bold colour and heat for curries and pickles.</p><a class="order" data-p="Red Chili Powder">Order →</a></article>
+      <article class="card reveal" style="--c:#a8752f"><div class="dot"></div><h3>Cumin</h3><p>Jeera. Warm and nutty, great for tempering.</p><a class="order" data-p="Cumin (Jeera)">Order →</a></article>
+      <article class="card reveal" style="--c:#7a8a3a"><div class="dot"></div><h3>Coriander</h3><p>Dhaniya. Fresh, citrusy base for countless dishes.</p><a class="order" data-p="Coriander (Dhaniya)">Order →</a></article>
+      <article class="card reveal" style="--c:#6b3a1e"><div class="dot"></div><h3>Garam Masala</h3><p>A fragrant blend to finish curries and gravies.</p><a class="order" data-p="Garam Masala">Order →</a></article>
+      <article class="card reveal" style="--c:#c4531f"><div class="dot"></div><h3>Meat Masala</h3><p>A rich, savoury mix for chicken, mutton, and more.</p><a class="order" data-p="Meat Masala">Order →</a></article>
+      <article class="card reveal" style="--c:#4c6b3a"><div class="dot"></div><h3>Cardamom</h3><p>Elaichi. Sweet aroma for tea, desserts, and rice.</p><a class="order" data-p="Cardamom (Elaichi)">Order →</a></article>
+      <article class="card reveal" style="--c:#2b2b2b"><div class="dot"></div><h3>Black Pepper</h3><p>Marich. Sharp, spicy bite, ground to order.</p><a class="order" data-p="Black Pepper (Marich)">Order →</a></article>
+    </div>
+  </section>
+
+  <section id="why" class="section alt">
+    <h2>Why Masala House</h2>
+    <div class="why">
+      <div class="reveal"><h3>Small batches</h3><p>Spices are ground in small quantities so aroma stays strong.</p></div>
+      <div class="reveal"><h3>Honest quality</h3><p>Clear ingredients, no mystery fillers in what you buy.</p></div>
+      <div class="reveal"><h3>Easy ordering</h3><p>Message us on WhatsApp, tell us what you need, we handle the rest.</p></div>
+    </div>
+  </section>
+
+  <section id="order" class="section order-box">
+    <h2>Ready to order?</h2>
+    <p>Send us your list on WhatsApp with quantity and delivery address.</p>
+    <a class="btn wa" id="wa-main" href="#">Chat on WhatsApp</a>
+    <p class="small">Phone / WhatsApp: +977 974-5347914</p>
+  </section>
+</main>
+
+<footer><p>© 2026 Masala House · Fresh spices, honest flavour</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
